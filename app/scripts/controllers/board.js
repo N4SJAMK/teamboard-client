@@ -245,7 +245,7 @@ module.exports = function(
 	$scope.promptTicketEdit = function(ticket) {
 		var props = {
 			'color':   ticket.color,
-			'heading': ticket.heading,
+			'content': ticket.content,
 		}
 
 		var options = {
@@ -259,7 +259,7 @@ module.exports = function(
 
 	$scope.promptTicketRemove = function() {
 		var props = {
-			'name':  ticketCollection.getSelectedTicket().heading,
+			'name':  ticketCollection.getSelectedTicket().content,
 			'count': ticketCollection.getSelectedTicketsCount(),
 		}
 
