@@ -7,7 +7,7 @@ require('ng-clip');
 require('angular-animate');
 require('angular-translate');
 require('angular-ui-router');
-require('angular-bootstrap');
+require('angular-bootstrap-npm');
 
 
 angular.module('tb', [

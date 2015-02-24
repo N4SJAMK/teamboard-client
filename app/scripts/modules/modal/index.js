@@ -3,7 +3,7 @@
 var _       = require('lodash');
 var angular = require('angular');
 
-require('angular-bootstrap');
+require('angular-bootstrap-npm');
 
 /**
  * Module 'tb.modal' is a wrapper around 'angular-bootstrap' '$modal' service.
