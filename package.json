@@ -7,7 +7,6 @@
     "angular-bootstrap": "angular-ui/bootstrap#1cebcbc3879a75ee5eae53d7c818745d4f2d4580",
     "angular-bootstrap-npm": "^0.12.3",
     "angular-translate": "2.4.2",
-    "angular-ui-bootstrap": "^0.12.0",
     "angular-ui-router": "0.2.11",
     "gsap": "1.14.2",
     "iscroll": "5.1.3",
