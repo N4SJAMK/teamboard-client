@@ -79,7 +79,6 @@ module.exports = function(
 		// added it ourselves) we add it to our clients collection
 		if (!ticketDoesExist) {
 			ev.ticket.color   = utf8.decode(ev.ticket.color);
-			ev.ticket.heading = utf8.decode(ev.ticket.heading);
 			ev.ticket.content = utf8.decode(ev.ticket.content);
 
 			ticketCollection.addTicketLocal(ev.ticket);
@@ -107,7 +106,6 @@ module.exports = function(
 		// so we need to add it to our clients collection
 		if (!existingTicket) {
 			ev.ticket.color   = utf8.decode(ev.ticket.color);
-			ev.ticket.heading = utf8.decode(ev.ticket.heading);
 			ev.ticket.content = utf8.decode(ev.ticket.content);
 			return ticketCollection.addTicketLocal(ev.ticket);
 		}
@@ -115,7 +113,6 @@ module.exports = function(
 		// the ticket already exists in our clients collection, so
 		// we can just update the attributes of it
 		existingTicket.color    = utf8.decode(ev.ticket.color);
-		existingTicket.heading  = utf8.decode(ev.ticket.heading);
 		existingTicket.content  = utf8.decode(ev.ticket.content);
 		existingTicket.position = ev.ticket.position;
 
