@@ -1,4 +1,4 @@
-FROM dockerfile/python
+FROM python
 
 MAINTAINER n4sjamk
 
